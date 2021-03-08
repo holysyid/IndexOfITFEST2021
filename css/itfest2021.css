@@ -1,0 +1,468 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.8 (https://startbootstrap.com/theme/one-page-wonder)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-weight: 700 !important;
+}
+
+h2,
+h3,h4{
+  font-weight: 800 !important;
+}
+
+h5,
+h6 {
+  /* font-family: 'Montserrat'; */
+  font-weight: 500 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+
+
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  
+  /* background: linear-gradient(-45deg, #2c302e, #393F3C, #393F3C); */
+
+  background: linear-gradient(-45deg, #3AD59F, #ffffff, #FEFE69);
+  animation: gradient 15s ease infinite;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: 200% 200%;
+  /* animation: gradient 15s ease infinite; */
+  
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 8rem;
+ color : #393F3C;
+ text-shadow: 4px 4px  #11C164;
+  
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+  color : #393F3C;
+  
+}
+header.masthead .masthead-content .custom-color {
+  border-width: 2px;
+  border-color : #393F3C;
+  color : #393F3C;
+  
+}
+header.masthead .masthead-content .custom-color:hover {
+ background-color : #11C164;
+ color : white;
+ border-color : #11C164;
+
+}
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #11C164 0%, #FEFE69 100%);
+  /* background-image: "src/logo-white.svg"; */
+  opacity: 0.8;
+  background-color: rgba(255, 255, 255, .15);
+  
+}
+.custom-thing {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #11C164 0%, #FEFE69 100%);
+  /* background-image: "src/logo-white.svg"; */
+  opacity: 0.8;
+  background-color: rgba(255, 255, 255, .15);
+  
+}
+.gradient-text {
+  /* Fallback: Set a background color. */
+  /* background-color: red;
+   */
+  /* Create the gradient. */
+  background-image: linear-gradient(0deg, #3AD59F, #FEFE69);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-size:7rem;
+}
+
+.bg-logo {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  /* background: linear-gradient(0deg, #3AD59F 0%, #E4B347 100%); */
+  /* filter: blur(4px); */
+  /* background-color: rgba(255, 255, 255, .15); */
+  opacity: 0.5;
+  filter: blur(2px);
+}
+.bg-logo-size {
+  height: 30rem;
+  /* width: 120rem; */
+  bottom: 10rem;
+  left: 50%;
+}
+.bg-logo-size-2{
+  /* height: 100rem; */
+  /* width: 120rem; */
+  /* bottom: -rem; */
+  left: 60%;
+}
+header.masthead .bg-circle-1 {
+  height: 90rem;
+  width: 90rem;
+  bottom: -55rem;
+  left: -55rem;
+  backdrop-filter: blur(5px);
+
+}
+header.masthead .bg-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  right: -25rem;
+}
+
+header.masthead .bg-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+  filter: blur(5px);
+
+}
+.custom-place {
+  height: 80rem;
+  width: 80rem;
+  top: 10rem;
+  right: -35%;
+  filter: blur(2px);
+
+}
+section.container .bg-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -6rem;
+  right: 35%;
+  filter: blur(2px);
+
+}
+section.section-content {
+  position: relative;
+  overflow: hidden;
+  /* padding-top: 7rem; */
+  padding-top: calc(7rem + 0px);
+  padding-bottom: 7rem; 
+  background: white; 
+  /* animation: gradient 15s ease infinite; */
+  /* background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: 200% 200%; */
+  /* animation: gradient 15s ease infinite; */
+  z-index: 1;
+  /* position: relative; */
+
+}
+section.section-content-grey{
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 0px);
+  padding-bottom: 7rem;
+  background:  #F3F4F6;
+  /* animation: gradient 15s ease infinite; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  /* background-attachment: scroll; */
+  /* background-size: 200% 200%; */
+  /* animation: gradient 15s ease infinite; */
+  z-index: 1;
+  position: relative;
+}
+
+
+.make-shadow {
+            
+  box-shadow: 0px 2px 4px  #28d174;
+  padding : 25px;
+  /* opacity: 0.5; */
+}
+.font-xl{
+  font-weight: 900;
+ 
+}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+/* padding: 10px 10px; */
+overflow: hidden;
+
+}
+
+li {
+float: left;
+}
+
+li a {
+
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.custom-color {
+  border-width: 2px;
+  border-color : #11C164;
+  color : #11C164;
+  
+}
+.custom-color:hover {
+ background-color : #11C164;
+ color : white;
+}
+.rounded-thing{
+  border-radius: 1rem;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06);
+  /* 0 22.3px 17.9px rgba(0, 0, 0, 0.072) */
+  /* 0 41.8px 33.4px rgba(0, 0, 0, 0.086); */
+  /* 0 100px 80px rgba(0, 0, 0, 0.12); */
+  
+  /* box-shadow: 0px 0px 4px  #D7D8DA; */
+  border: none;
+}
+.rounded-thing.grey{
+  background-color: #393F3C;
+}
+.card:hover{
+  background-color: #258656;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+  transition: transform 0.1s ease-in 0s;
+
+  /* box-shadow: 0px 0px 4px  #D7D8DA; */
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.card-title{
+  color: white;
+}
+
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900); */
+html {
+  --background: #F3F4F6;
+  --primary: #00af41;
+  --line: #393F3C;
+}
+
+
+article {
+  /* padding: 0.5rem 0.5rem 0 1rem; */
+  background: var(--background);
+  /* letter-spacing: 0.1rem; */
+  font-size: 1.7rem;
+  color: #393F3C;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* height: 100vh; */
+  font-weight: 700;
+  
+}
+
+dl {
+  display: grid;
+  grid-auto-columns: -webkit-max-content;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  grid-template-rows: auto auto;
+}
+dl .cell {
+  grid-column: span 2;
+  display: flex;
+  padding: 0 0.8rem;
+}
+dl .cell:nth-child(2) {
+  grid-column: span 3;
+  justify-content: flex-end;
+}
+dl .cell .cell-content {
+  display: inline-flex;
+  flex-direction: column;
+  border-left: 1px dashed var(--line);
+  position: relative;
+  background: var(--background);
+}
+dl .cell .cell-content::after {
+  content: "";
+  display: block;
+  background: var(--line);
+  height: 0.6rem;
+  width: 0.6rem;
+  position: absolute;
+  left: -0.25rem;
+  border-radius: 50%;
+}
+dl .cell .cell-content dt {
+  background: var(--background);
+  color: #00af41;
+  padding-bottom: 0.25em;
+  position: relative;
+  left: -0.25rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+dl .cell .cell-content dd {
+  background: var(--background);
+  margin: 0;
+  position: relative;
+  left: -0.25rem;
+  color: #393F3C;
+}
+dl .cell:nth-child(odd) .cell-content {
+  padding-bottom: 2rem;
+  border-bottom: 3px solid var(--line);
+}
+dl .cell:nth-child(odd) .cell-content::after {
+  bottom: -0.35rem;
+}
+dl .cell:nth-child(odd) .cell-content dd:last-child {
+  padding-bottom: 0.25rem;
+}
+dl .cell:nth-child(even) .cell-content {
+  padding-top: 4.25rem;
+  position: relative;
+  top: -0.25rem;
+  border-top: 3px solid var(--line);
+}
+dl .cell:nth-child(even) .cell-content::after {
+  top: -0.35rem;
+}
+dl .cell:nth-child(even) .cell-content dt {
+  padding-top: 0.5rem;
+}
+dl .cell:nth-child(even) .cell-content dd {
+  flex-grow: 2;
+}
+dl .cell:last-child .cell-content {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+
+
+@media (min-width: 360px) {
+  header.masthead {
+    padding-top: calc(12m + 72px);
+    padding-bottom: 12rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+  .gradient-text {
+    font-size: 4rem;
+  }
+ 
+ 
+  
+}
+@media (min-width: 700px) {
+  header.masthead {
+    padding-top: calc(12m + 72px);
+    padding-bottom: 12rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 8rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+  .gradient-text {
+    font-size: 7rem;
+  }
+}
+@media (min-height: 1000px) {
+  header.masthead {
+    padding-top: calc(18m + 72px);
+    padding-bottom: 18rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 9rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 5rem;
+  }
+  .gradient-text {
+    font-size: 7rem;
+  }
+}
